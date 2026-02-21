@@ -1,3 +1,4 @@
+
 //Jacob Strider
 //02/20/26
 //CSC 372-01
@@ -5,6 +6,7 @@
 // The script "favorites.js" adds an interactive favorites feature
 // to a dish menu. It allows users to add or remove dishes from their favorites list,
 // while dynamically updating the total price of the selected favorites.
+
 
 
 
