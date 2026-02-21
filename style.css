@@ -78,3 +78,18 @@ article > img {
     margin: 15px 0;
 }
 
+.favorited {
+    border: 3px solid #ff6b6b;
+    background-color: #fff3f3;
+}
+
+#favorites-section {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 2px solid #ccc;
+}
+
+#favorites-list li {
+    margin-bottom: 8px;
+    font-weight: 500;
+}
