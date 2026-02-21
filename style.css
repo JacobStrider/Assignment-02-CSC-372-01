@@ -1,0 +1,80 @@
+/*
+Jacob Strider
+02/13/26
+CSC 372-01
+
+This is the style.css file for the UNCG: Dine-in Special restaurant showcase page.
+*/
+
+/* General Styles */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+/* Layout Styles */
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+aside {
+    background-color: #dddddd;
+    padding: 15px;
+}
+
+/* context specific styles */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* class specific styles */
+
+.restaurant-info {
+    font-weight: bold;
+}
+
+.dish-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.dish-card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    min-width: 220px;
+}
+
+
+.dish-caption {
+    font-size: 14px;
+}
+
+article > img {
+    width: 300px;
+    display: block;
+    margin: 15px 0;
+}
+
